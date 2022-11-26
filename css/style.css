@@ -175,3 +175,33 @@ a{
     background-size: cover;
 }
 
+/* Block */
+
+.block{
+    padding: 20px 30px;
+    text-align: center;
+    
+}
+
+.block__heading{
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.block--dark{
+    background-color: #020312;
+    color: white;
+}
+
+.block--dark .block__heading{
+    color: white;
+}
+
+.block__header{
+    text-align: center;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
