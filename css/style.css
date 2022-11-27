@@ -41,6 +41,7 @@ h1, h2{
     background-color: #3788F229;
     font-weight: bold;
     text-transform: uppercase;
+    letter-spacing: 1.5px;
 }
 
 /* Link */
@@ -136,7 +137,6 @@ a{
     justify-content: center;
     align-content: center;
     gap: 20px;
-
 }
 
 .box-one{
@@ -175,6 +175,23 @@ a{
     background-size: cover;
 }
 
+.gallery__heading{
+    font-size: 60px;
+    color: #FFFFFF;
+    font-family: 'Clash Display', Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.gallery__para{
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+
+.hero__gallery{
+    padding-top: 0;
+}
+
+
 /* Block */
 
 .block{
@@ -192,7 +209,7 @@ a{
 .block--dark{
     background-color: #020312;
     color: white;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .block--dark .block__heading{
@@ -209,11 +226,12 @@ a{
 }
 
 .block--dark .block__heading{
-    margin-bottom: 100px 0;
+    margin-bottom: 50px 0;
 }
 
 .block--dark .block__para{
     margin-bottom: 25px;
+    margin-top: 0;
 }
 
 /* Navigation bar */
@@ -250,6 +268,10 @@ a{
 
 .hero{
     height: 82.5vh;
+    padding-top: 50px;
+    padding-left: 0;
+    background: rgba(0, 0, 0, 1);  
+    
 }
 
 
@@ -278,5 +300,12 @@ a{
 
 .hero__link{
     margin-left: 30px;
+}
+
+.gradient__text{
+    font-size: 68px;
+    background: linear-gradient(to right, #B537F2, #3788F2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
