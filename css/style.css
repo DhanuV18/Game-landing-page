@@ -302,8 +302,7 @@ a{
 
 .block{
     padding: 20px 30px;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 .block__heading{
@@ -324,8 +323,6 @@ a{
     padding-top: 50px;
 }
 
-
-
 .block--dark .block__heading{
     color: white;
 }
@@ -335,8 +332,15 @@ a{
 }
 
 .container{
-    max-width: 1140px;
+    padding: 2rem 5rem;
     margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
 }
 
 .block--dark .block__heading{
@@ -380,14 +384,26 @@ a{
 
 /* Hero */
 
-.hero{
-    height: 82.5vh;
-    padding-top: 50px;
-    padding-left: 0;
-    background: rgba(0, 0, 0, 1);  
-    
+@media screen and (min-width: 768px){
+    .hero{
+        height: 100vh;
+    }
 }
 
+.hero{
+    height: 100vh;
+    padding-top: 50px;
+    padding-left: 0;
+    background: rgba(0, 0, 0, 1);     
+}
+
+
+@media screen and (min-width: 768px) {
+    .hero__content {
+        text-align: left;
+        align-self: center;
+    }
+}
 
 .hero__image{
     width: 100%;
@@ -413,7 +429,8 @@ a{
 }
 
 .hero__link{
-    margin-left: 30px;
+    
+    text-align: center;
 }
 
 .gradient__text{
