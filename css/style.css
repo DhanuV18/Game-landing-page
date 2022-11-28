@@ -129,6 +129,11 @@ a{
     font-weight: 700;
 }
 
+.link::after{
+    content: url('../icons/arrow.png');
+    vertical-align: middle;
+}
+
 .link-arrow::before {
     content: url(../icons/arrow-icon.png);
     vertical-align: middle;
@@ -187,7 +192,8 @@ a{
 /* Cards */
 
 .card{
-    width: 325px;
+    width: 360px;
+    height: 480px;
     background-color: black;
     padding: 20px;  
     margin: 10px;    
@@ -202,6 +208,10 @@ a{
     color: white;
     margin: 30px 0 15px 0;
     font-size: 2rem;
+}
+
+.card__body, .card__paragraph{
+    text-align: left;
 }
 
 .paragraph{
@@ -600,10 +610,6 @@ a{
     margin-right: 15rem;
 }
 
-.link{
-    display: flex;
-    flex-direction: column;
-}
 
 .social__icon .footer__list{
     display: flex;
@@ -628,8 +634,9 @@ a{
 
 .wrapper {
     display: flex;
-    max-width: 1200px;
+    max-width: 1140px;
     position: relative;
+    margin: 0 auto;
 }
 
 .wrapper i {
