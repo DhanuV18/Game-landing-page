@@ -123,22 +123,18 @@ a{
     text-decoration: none;
 }
 
-.link, .link-arrow{
+.link,
+.link-arrow {
     color: #B537F2;
     font-weight: 700;
 }
 
-.link::after{
-    content: url(../icons/arrow.png);
-    vertical-align: middle;
-    margin-left: 3px;
-}
-
-.link-arrow::before{
+.link-arrow::before {
     content: url(../icons/arrow-icon.png);
     vertical-align: middle;
-    margin-right: 3px;
+    margin-right: 3px;    
 }
+
 
 /* Buttons */
 
@@ -150,17 +146,42 @@ a{
 .btn--pink{
     background-color: #B537F2;
     color: #FFFFFF;
-    padding: 15px 31px;
+    padding: 1rem 2.2rem;
 }
 
 .btn--dark{
     background-color: black;
     color: #FFFFFF;
-    padding: 15px 25px;
+    padding: 1rem 2rem;
 }
 
-.btn--pink:hover{
-    background: linear-gradient(to right, #B537F2, #3788F2);
+  .btn--pink:hover {
+      background: linear-gradient(to right, #B537F2, #3788F2);
+  }
+
+
+@media screen and (min-width: 1024px) {
+    .btn {
+        font-weight: 600;
+        border: 0;
+    } 
+
+    .btn--pink {
+        background-color: #B537F2;
+        color: #FFFFFF;
+        padding: 1.5rem 3.1rem;
+    }
+    
+    .btn--dark {
+        background-color: black;
+        color: #FFFFFF;
+        padding: 1.5rem 2.5rem;
+    }
+    
+    .btn--pink:hover {
+        background: linear-gradient(to right, #B537F2, #3788F2);
+    }
+
 }
 
 /* Cards */
