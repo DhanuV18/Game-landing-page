@@ -227,15 +227,22 @@ a{
 
 /* Gallery */
 
-.gallery{
+ .gallery{
     display: grid;
-    grid-template-rows: repeat(2, 300px);
-    grid-template-columns: 50fr 25fr 25fr;
-    justify-items: stretch;
-    align-items: stretch;
-    justify-content: center;
-    align-content: center;
-    gap: 20px;
+    grid-template-rows: 50rem;
+} 
+
+@media screen and (min-width: 768px) {
+    .gallery{
+        display: grid;
+        grid-template-rows: repeat(2, 30rem);
+        grid-template-columns: 50fr 25fr 25fr;
+        justify-items: stretch;
+        align-items: stretch;
+        justify-content: center;
+        align-content: center;
+        gap: 20px;
+    }    
 }
 
 .box-one{
@@ -275,14 +282,14 @@ a{
 }
 
 .gallery__heading{
-    font-size: 60px;
+    font-size: 6rem;
     color: #FFFFFF;
     font-family: 'Clash Display', Arial, Helvetica, sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 .gallery__para{
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
     margin-top: 0;
 }
 
