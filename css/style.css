@@ -69,7 +69,7 @@ p {
     h1, .gradient__text{
         font-size: 6.8rem;    
     }
-    
+     5rem 2re
     h2{
         font-size: 6rem;
     }
@@ -97,6 +97,8 @@ p {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1.5px;
+    padding: 0.5rem 3rem;
+    margin-top: 3rem;
 }
 
 .badge--small {
@@ -107,7 +109,7 @@ p {
 @media screen and (min-width: 1024px) {
     .badge {
         font-size: 1.4rem;
-        padding: 0.8rem 1.2rem;
+        padding: 0.4rem 1.2rem;
         margin: 0.3rem;
     }
 
@@ -209,6 +211,7 @@ a{
     color: white;
     margin: 30px 0 15px 0;
     font-size: 2rem;
+    font-family: 'Clash Display', Arial, Helvetica, sans-serif;
 }
 
 .card__body, .card__paragraph{
@@ -220,7 +223,8 @@ a{
     margin-top: 0;
     line-height: 1.5;
     font-weight: 100;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+   
 }
 
 /* Grid */
@@ -247,6 +251,7 @@ a{
     display: grid;
     grid-template-rows: 50rem;
 } 
+
 
 @media screen and (min-width: 768px) {
     .gallery{
@@ -314,6 +319,10 @@ a{
 }
 
 
+.photos{
+    font-size: 1.5rem;
+}
+
 /* Block */
 
 .block{
@@ -348,7 +357,7 @@ a{
 }
 
 .container{
-    padding: 2rem 5rem;
+    padding: 2rem 4rem 2rem -0.2rem;
     margin: 0 auto;
 }
 
@@ -379,6 +388,10 @@ a{
     flex-wrap: wrap;
 }
 
+.nav__logo{
+    margin-left: 1.4rem;
+}
+
 .nav__list{
     text-decoration: none;
     list-style-type: none;
@@ -407,8 +420,8 @@ a{
 }
 
 .hero{
-    height: 100vh;
-    padding-top: 50px;
+    height: 91vh;
+    padding-top: 38.5px;
     padding-left: 0;
     background: rgba(0, 0, 0, 1);     
 }
@@ -445,7 +458,8 @@ a{
 }
 
 .hero__link{
-    
+    margin-left: 2.5rem;
+    font-size: 1.6rem;
     text-align: center;
 }
 
@@ -472,12 +486,13 @@ a{
     padding-top: 50px;
     padding-bottom: 20px;
     letter-spacing: 0.7px;
+    font-size: 6rem;
 }
 
 .contact__paragraph{
     color: #CCCCCF;
     max-width: 750px;
-    margin: 0 auto;
+    margin: 1rem 0 1rem -6.5rem;
     padding-bottom: 10px;
     letter-spacing: 1px;
 }
@@ -501,27 +516,9 @@ a{
 
 /* Games */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.game{
+    padding-top: 12rem;
+}
 
 /* Footer */
 
@@ -531,12 +528,15 @@ a{
     align-items: flex-start;
     flex-wrap: wrap;
     align-content: center;
+    margin-left: 12rem;
 
 }
 
 .footer__contact {
     align-self: flex-start;
-    flex-basis: 45rem;
+    flex-basis: 30rem;
+    padding-right: 2rem;
+    
 }
 
 .footer__list{
@@ -546,8 +546,8 @@ a{
 }
 
 .footer__list-item{
-    margin: 2.1rem;  
-    font-size: 1.4rem;  
+    margin: 1.6rem;  
+    font-size: 1.6rem;  
 }
 
 .footer__item{
@@ -560,20 +560,27 @@ a{
     margin-left: 2rem;
     text-align: left;
     letter-spacing: 1.2px;
+    font-size: 1.4rem;
+    color: #999AA0;
 }
 
 .footer__contact .contact__paragraph{
     text-align: left;    
 }
 
+.contact__para{
+    padding: 0 12rem;
+}
+
+
 .footer__logo{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    margin: 3rem 0;
+    margin: 3rem 0 0 -6.5rem ;
     height: 5rem;
     width: 15rem;
-    padding: 0;
+    
 }
 
 .contact__details{
@@ -581,7 +588,8 @@ a{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    font-size: 1.2rem;    
+    font-size: 1.2rem; 
+    margin: 1rem 0 0 -6.5rem;
 }
 
 .contact__icon{
@@ -605,6 +613,7 @@ a{
     align-items: flex-start;
     color: #FFFFFF;
     margin-bottom: 0.5rem;
+    font-size: 1.6rem;
 }
 
 .last__item{
@@ -619,11 +628,14 @@ a{
 }
 
 .social-media__icon{
-    margin-right: 0.5rem;
+    margin-right: 0.2rem;
+    
 }
 
 .horizontal{
     margin-top: 5rem;
+    color: #676770;
+    width: 1140px;
 }
 
 .copyright{
