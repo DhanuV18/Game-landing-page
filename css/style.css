@@ -127,6 +127,7 @@ a{
 .link-arrow {
     color: #B537F2;
     font-weight: 700;
+    font-size: 1.3rem;
 }
 
 .link::after{
@@ -649,7 +650,7 @@ a{
     position: absolute;
     text-align: center;
     line-height: 44px;
-    background: #fff;
+    margin: 0 -25px;
     border-radius: 50%;
     transform: translateY(-50%);
     transition: transform 0.1s linear;
@@ -659,9 +660,6 @@ a{
     transform: translateY(-50%) scale(0.9);
 }
 
-.wrapper i:hover {
-    background: #f2f2f2;
-}
 
 .wrapper i:first-child {
     left: -22px;
